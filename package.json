@@ -1,0 +1,37 @@
+{
+  "name": "@vue/github-contributors-list",
+  "version": "1.0.0",
+  "description": "Vue版本的GitHub Contributors List组件，基于VitePress框架",
+  "type": "module",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [
+    "vue",
+    "vitepress",
+    "github",
+    "contributors",
+    "avatar",
+    "list",
+    "component"
+  ],
+  "author": "Vue Contributors Team",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.4.0"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0",
+    "@vue/tsconfig": "^0.5.0",
+    "typescript": "^5.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vue/github-contributors-list"
+  }
+} 
